@@ -1,5 +1,5 @@
 import gradio as gr
-from summarizer import summarize
+from firstclass.app1.summarizer import summarize
 
 gr.Interface(fn=summarize,
     inputs=gr.Textbox(lines=10, placeholder="Enter the URL of the website to summarize..."),
